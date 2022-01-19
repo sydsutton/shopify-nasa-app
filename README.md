@@ -1,7 +1,5 @@
 # Andrew Sutton's Shopify NASA Project
 
-### I understand that the API I chose to use didn't have the most varied photos, but getting those photos to display was actually a little tricky, so I hope that that counts for something. 
-
 ![image](https://user-images.githubusercontent.com/83406605/150145703-3abf27e6-12a8-4159-b35d-be44f47609c1.png)
 ![image](https://user-images.githubusercontent.com/83406605/150145792-516b40da-68c3-4627-ad3d-54a7cd80529f.png)
 
