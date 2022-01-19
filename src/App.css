@@ -1,16 +1,20 @@
-html {
+body {
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgb(34, 36, 46), rgb(73, 76, 109));
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+* {
   font-family: 'Cabin', sans-serif;
 } 
 
-body {
-  height: 100vh;
-}
-
 .photo {
-  position: relative;
   max-width: 400px;
   margin: 0 auto;
   border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.2);
 }
 
 .photo-container {
@@ -28,7 +32,7 @@ body {
 }
 
 .unlike-btn {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .btn-container {
@@ -42,23 +46,47 @@ body {
 
 .navbar {
   width: 100%;
+  background-color: rgb(26, 26, 29);
 }
+
 
 .filled-icon {
-  color: red;
-}
-
-.liked-num {
-  color: red;
-}
-
-.header {
-  position: absolute; 
-  left: 45%;
+  color: rgb(151, 21, 21);
 }
 
 .navbar {
-  height: 4rem;
+  height: 4.5rem;
+  color:rgb(247, 239, 239);
+}
+
+.total,
+.filled-icon,
+.empty-icon {
+  position: absolute;
+}
+
+.filled-icon,
+.empty-icon {
+  top: 10px;
+  right: 45px;
+}
+
+.total {
+  right: 62px;
+  top: 23px;
+}
+
+.liked-num {
+  color:rgb(247, 239, 239);
+}
+
+.caption {
+  width: 80%;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  top: 5px;
+  z-index: 3;
+  left: 45px;
 }
 
 .hover:hover {

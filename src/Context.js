@@ -13,7 +13,7 @@ const ContextProvider = (props) => {
         let isMounted = true
         setLoading(true)
         async function getData(){
-            await fetch(`https://api.nasa.gov/EPIC/api/natural/date/2019-05-30?api_key=${API_KEY}`)
+            await fetch(`https://api.nasa.gov/EPIC/api/natural/date/2021-01-01?api_key=${API_KEY}`)
                 .then(res => res.json())
                 .then(data => {
                     setLoading(false)
